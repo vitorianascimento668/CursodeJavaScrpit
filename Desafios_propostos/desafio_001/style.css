@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to left, rgb(120, 186, 197), rgba(28, 120, 148, 0.87), rgb(75, 163, 156));
+    margin-left: 40vw;
+    margin-bottom: 50vw;
+
+   
+}
+input#txtpais{  
+    margin: auto;
+    background-color: rgb(2, 5, 5);
+    color: white;
+
+}
+div#resposta{
+    color: rgb(255, 255, 255);
+   
+}
+input#Verficar{
+    background-color: black;
+
+}

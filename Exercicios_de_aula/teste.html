@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando teclado</title>
+    <style>
+        div{
+            background-color: lightgray;
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            line-height: 150px;
+            color: rgb(29, 29, 29);
+        }
+    </style>
+</head>
+<body>
+    <h1>Estou fazendo testes no teclado</h1>
+    <DIV id="ola">
+        <p >Olá mundãaaao </p>
+    </DIV>
+    <script>
+        var p = window.document.getElementById('ola')
+        p.addEventListener('dragstart', teclar)
+        function teclar(){
+            p.innerText = 'EAEE'
+        }
+    </script>
+    
+</body>
+</html>
