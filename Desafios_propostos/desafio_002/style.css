@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body{
     background-color: rgb(57, 164, 231);
-    font: normal 20px arial;
+    font: normal 15px arial;
     color: white;
     
 }
@@ -9,7 +9,8 @@ main{
     color: black;
     background-color: white;
     width: 500px;
-    height: 200px;
+    min-height: 100px;
+    max-height: 400px;
     margin: auto;
     padding: 9px;
     border-radius: 10px ;
@@ -26,4 +27,7 @@ footer{
 a{
     text-decoration: none;
     color: white;
+}
+div#foto{
+    text-align:center;
 }

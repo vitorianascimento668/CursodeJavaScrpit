@@ -8,14 +8,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Verificador de idade</h1>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
     <main>
         <p>Ano de Nascimento: <input type="number" name="txtano" id="txtano"><br></p>
-        <p>Sexo: <input type="radio" name="txtf" id="txtf"> Feminino 
-        <input type="radio" name="txtm" id="txtm"> Masculino</p>
-        <p><input type="button" value="Verificar" ></p>
-        <p>Preencha os dados acima, para ver o resultado!</p>
+        <p>Qual o sexo? [ F / M ] <input type="text" name="txtsexo" id="txtsexo"></p>
+        <p><input type="button" value="Verificar" onclick="verificar()"></p>
+        <div id="res">
+        </div>
+        <div id="foto">
+            <img src="imagens/" alt="menina de 0 a 11 anos" id="foto_1">
+            
+        </div>
     </main>
-    <footer><a href="https://www.cursoemvideo.com/" target="_blank">@Cursoemvideo</a>  Vitória Nascimento</footer>    
+    <footer><a href="https://www.cursoemvideo.com/" target="_blank">@Cursoemvideo</a>  Vitória Nascimento</footer>
+    <script src="script.js"></script>   
 </body>
 </html>
