@@ -8,11 +8,11 @@ body{
 main{
     color: black;
     background-color: white;
-    width: 500px;
+    width: 400px;
     min-height: 100px;
     max-height: 400px;
     margin: auto;
-    padding: 9px;
+    padding: 0 10px;
     border-radius: 10px ;
     border: solid 2px  rgba(49, 49, 49, 0.384);
 
@@ -30,4 +30,13 @@ a{
 }
 div#foto{
     text-align:center;
+}
+div#res {
+    min-height: 0px;
+}
+p#fem{
+    text-align: center;
+}
+p#remova {
+    margin: -21px 0px 7px;
 }
